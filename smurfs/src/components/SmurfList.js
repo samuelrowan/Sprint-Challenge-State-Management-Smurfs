@@ -40,7 +40,7 @@ class SmurfList extends React.Component {
 const mapStateToProps = state => {
   console.log("mapStateToProps in SmurfList", state);
   return {
-    citizens: state.smurfListReducer.citizens
+    citizens: state.citizens
   };
 };
 
